@@ -1,4 +1,4 @@
-FROM node
+FROM node:7.7.0-alpine
 RUN npm install -g gitbook-cli
 RUN npm -g install web-server-cli
 RUN gitbook fetch
